@@ -33,6 +33,7 @@ a:hover {
 }
 
 .photo img {
+    padding: 40px;
     border-radius: 50%;
 }
 
