@@ -1,0 +1,24 @@
+.buju {
+    display: flex;
+    flex-direction: column;
+}
+
+.zhushi {
+    width: 30%;
+}
+
+.zengjia {
+    display: none;
+}
+
+.zhongzi {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 32.8px;
+}
+
+.zhengwen .hanbao {
+    display: none;
+}

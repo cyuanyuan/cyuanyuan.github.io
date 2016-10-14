@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+
+/*div {
+    border: 1px dotted red;
+}*/
+
+
+/* flex容器 */
+
+.container {
+    display: flex;
+}
+
+.container.full_width {
+    width: 100%;
+}
+
+.container.column {
+    flex-direction: column;
+}
+
+
+/* 项目居中紧密排列 */
+
+.container.item_centered {
+    justify-content: center;
+}
+
+.container.item_at_end {
+    justify-content: flex-end;
+}
+
+.fixed_top {
+    position: fixed;
+    top: 0
+}
+
+.fixed_bottom {
+    position: fixed;
+    bottom: 0
+}
+
+img {
+    width: 100%;
+}
+
+.chuchu {
+    padding: 50px;
+    background-color: rgba(85, 85, 85, 0.7);
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    z-index: 2;
+    font-size: 16px;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+.chuchu>a {
+    color: white;
+    text-decoration: none;
+}

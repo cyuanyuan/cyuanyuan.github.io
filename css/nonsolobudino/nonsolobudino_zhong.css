@@ -1,0 +1,50 @@
+.shangpintupian {
+    width: 30%;
+    padding: 10px;
+}
+
+.shangpin {
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.zuhezhuang {
+    width: 30%;
+    padding: 10px;
+}
+
+.zuoliao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.zuoliao biaoti {
+    width: 100%;
+}
+
+.zuoliaochanpin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.zuoliaoxinxi {
+    width: 32%;
+}
+
+.dibu .neirong {
+    display: none;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kehuquyu {
+    width: 30%;
+}
+
+.goumaiqu {
+    width: 30%;
+}

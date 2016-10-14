@@ -1,0 +1,83 @@
+.denglutiao {
+    padding: 15px;
+    font-size: 16px;
+}
+
+.dengluneirong {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shangpintupian {
+    width: 25%;
+    padding: 15px;
+}
+
+.shangpin {
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.zuhezhuang {
+    width: 30%;
+    padding: 15px;
+}
+
+.zuoliao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.zuoliao biaoti {
+    width: 100%;
+}
+
+.zuoliaochanpin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.zuoliaoxinxi {
+    width: 32%;
+}
+
+.dibu .neirong {
+    display: none;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hai {
+    padding: 10px;
+}
+
+.kehuquyu.yi {
+    width: 40%;
+}
+
+.kehuquyu {
+    width: 25%
+}
+
+.goumaiqu {
+    width: 25%;
+}
+
+.yizu {
+    display: flex;
+}
+
+.yizu>div {
+    width: 50%;
+}
+
+.neirong {
+    max-width: 1144px;
+    margin-left: auto;
+    margin-right: auto;
+}

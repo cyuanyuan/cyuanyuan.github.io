@@ -1,0 +1,40 @@
+.buju {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+h1 {
+    font-size: 46.8px;
+}
+
+.zhongzi {
+    font-size: 20px;
+}
+
+.zuobiantiao {
+    width: 30%;
+}
+
+.zhengwen {
+    width: 70%;
+    overflow-y: auto;
+    display: flex;
+}
+
+.heisehanbao {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.zengjia {
+    display: none;
+}
+
+.buju>.hanbao {
+    display: none;
+}

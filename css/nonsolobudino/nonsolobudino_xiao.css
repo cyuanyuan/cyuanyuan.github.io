@@ -1,0 +1,36 @@
+.biaotouer {
+    display: none;
+}
+
+.biaoqian {
+    display: none;
+}
+
+.shangpintupian {
+    width: 50%;
+    padding: 10px;
+}
+
+.zuhezhuang {
+    width: 100%;
+    padding: 10px;
+}
+
+.zuoliao img {
+    width: 360px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.goumaiqu {
+    display: none;
+}
+
+.shangpintupian img {
+    width: 50%;
+}
+
+.zuhezhuang img {
+    width: 50%;
+}

@@ -1,0 +1,18 @@
+.liulanqi {
+    padding-top: 70px;
+    transition-duration: 0.5s;
+}
+
+.jianjie {
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.liulanqineirong {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,49 @@
+.zengjia {
+    display: block;
+}
+
+.huizi a {
+    color: #a89d7a;
+}
+
+.zengjia div {
+    padding: 5px 0
+}
+
+.zengjia h3 {
+    color: #111;
+}
+
+.zhongzi {
+    font-size: 20px;
+}
+
+.xiaobiankuang a {
+    border: 1px solid #a89d7a;
+    background-color: #a89d7a;
+    color: white;
+    padding: 3px 5px;
+    margin: 2px 0;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 2px;
+    transition-duration: 0.5s;
+}
+
+.xiaobiankuang a:hover {
+    background-color: #111;
+    border-color: #111;
+}
+
+.buju>.hanbao {
+    display: none;
+}
+
+.jianjie {
+    width: 70%;
+}
+
+.zengjia {
+    width: 30%;
+    padding: 0 70px;
+}

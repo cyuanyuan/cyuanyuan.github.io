@@ -1,0 +1,47 @@
+.item {
+    display: flex;
+}
+
+.jianjie {
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.item:first-child .jianjie {
+    color: #e6ddde;
+    background-color: #503b3e;
+}
+
+.tupian,
+.photo {
+    width: 50%;
+}
+
+.tupian {
+    border: 2em solid white;
+    transition-duration: 300ms;
+}
+
+.tupian:hover {
+    transition-duration: 300ms;
+}
+
+.tupian:hover img {
+    -webkit-filter: none;
+}
+
+.jianjie:nth-child(2n+2) span {
+    margin-left: 0;
+}
+
+.jianjie:nth-child(2n+1) span {
+    margin-right: 0;
+}
+
+.jianjie:nth-child(2n+1) {
+    text-align: right;
+}
+
+.contact {
+    width: 100%;
+}

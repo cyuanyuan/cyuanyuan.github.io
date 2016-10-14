@@ -1,0 +1,19 @@
+.container.full_width {
+    width: 100%;
+}
+
+.container.column {
+    flex-direction: column;
+}
+
+#liulanqi_rongqi {
+    flex-direction: column;
+}
+
+.huangse {
+    padding-top: 70px;
+}
+
+.main {
+    position: static;
+}

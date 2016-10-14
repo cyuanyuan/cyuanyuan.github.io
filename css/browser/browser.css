@@ -1,0 +1,238 @@
+/*div {
+    border: 1px solid red;
+}*/
+
+div {
+    color: white;
+}
+
+body {
+    margin: 0;
+    /*height: 100%;*/
+    font-family: "Microsoft Yahei UI", "Microsoft Yahei", "Gotham SSm A", "Gotham SSm B", Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+}
+
+.container {
+    display: flex;
+}
+
+.container.full_width {
+    width: 100%;
+}
+
+.container.column {
+    flex-direction: column;
+}
+
+.container.item_centered {
+    justify-content: center;
+}
+
+.main {
+    position: absolute;
+    height: 100%;
+}
+
+.zhengti {
+    transition-duration: 0.5s;
+    overflow-x: hidden;
+}
+
+.enabled:after {
+    display: none;
+}
+
+.disabled:after {
+    background-color: rgba(85, 85, 85, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    cursor: url(../../img/browser/close.png), auto
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.yincang {
+    max-width: 350px;
+    transition-duration: 0.5s;
+    position: absolute;
+    transform: translate(-270px, 0);
+    z-index: 1;
+    min-width: 270px;
+    flex-direction: column;
+    height: 100%;
+}
+
+.yincang1 {
+    background-color: #5e5;
+}
+
+.huangse {
+    background-color: #f2b635;
+}
+
+.qianhuang {
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 12px 0;
+    font-size: 0.9em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.chengse {
+    background-color: #f19a2a;
+}
+
+.blue {
+    background-color: #00caff;
+}
+
+.shenlan {
+    background-color: #00a0e6;
+}
+
+.hongse {
+    background-color: #f25648;
+}
+
+.liebiao {
+    font-size: 15px;
+    padding: 35px 30px;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.neirong {
+    display: flex;
+    justify-content: center;
+}
+
+.yuyan {
+    font-size: 15px;
+    padding: 15px 30px;
+    justify-content: center;
+    background-color: #4f4f4f;
+    flex-grow: 1;
+}
+
+.baifenbi {
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.jiange {
+    padding: 20px;
+}
+
+.tubiao {
+    padding-bottom: 5px;
+}
+
+.browser_img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.browser_img img {
+    width: 100%;
+}
+
+.tubiao_img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tubiao_img img {
+    width: 100%;
+}
+
+.xiaozi {
+    font-size: 0.8em;
+}
+
+#hanbao {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    z-index: 1;
+}
+
+#hanbao img {
+    width: 100%;
+}
+
+.zhuye {
+    background-color: #f2b635;
+}
+
+.xiangmu {
+    background-color: #646464;
+}
+
+.shiyong {
+    background-color: #5e5e5e;
+}
+
+.wenti {
+    background-color: #585858;
+}
+
+.yemian {
+    background-color: #535353;
+}
+
+.xiazai {
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 25px 15px 10px;
+    width: 7em;
+    text-align: center;
+}
+
+.huangse .xiazai:hover {
+    background-color: white;
+    color: #f2b635;
+}
+
+.chengse .xiazai:hover {
+    background-color: white;
+    color: #f19a2a;
+}
+
+.blue .xiazai:hover {
+    background-color: white;
+    color: #00caff;
+}
+
+.shenlan .xiazai:hover {
+    background-color: white;
+    color: #00a0e6;
+}
+
+.hongse .xiazai:hover {
+    background-color: white;
+    color: #f25648;
+}
+
+.liulanqi {
+    display: flex;
+    justify-content: center;
+}
+
+.liulanqineirong {
+    width: 230px;
+}

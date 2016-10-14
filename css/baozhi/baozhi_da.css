@@ -1,0 +1,151 @@
+.biaoti {
+    font-size: 250%;
+    font-weight: 900;
+}
+
+.tubiao {
+    width: 80%;
+    padding: 5px;
+}
+
+.tubiao img {
+    width: 400px;
+}
+
+.fenduan {
+    width: 33%;
+    padding: 35px 0;
+}
+
+.fenduan:nth-child(3n+1) {
+    padding-right: 20px;
+}
+
+.fenduan:nth-child(3n+2) {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fenduan:nth-child(3n+3) {
+    padding-left: 20px;
+}
+
+.toutiao {
+    width: 65%;
+    order: 0;
+}
+
+.toutiaozhushi {
+    width: 30%;
+    order: 1;
+    padding-left: 20px;
+}
+
+.toutiaofenduan {
+    width: 65%;
+    order: 2;
+}
+
+.taitou_neirong {
+    width: 58.5%;
+    margin-left: 5%;
+}
+
+.neirong {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zhongyaoxinwen {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.zuobiaoti {
+    display: none;
+}
+
+.tiyu {
+    width: 33%;
+    padding-right: 20px;
+}
+
+.tiyu_jianjie {
+    width: 33%;
+    padding-left: 20px;
+}
+
+.ciyaoxinwen {
+    display: flex;
+}
+
+.lbo {
+    width: 33%;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.lbo img {
+    padding-top: 10px;
+}
+
+.biantiao>div {
+    width: 30%;
+}
+
+.shipin {
+    display: flex;
+}
+
+.videos {
+    width: 65%;
+}
+
+.videosfenduan {
+    width: 35%;
+    padding: 30px;
+}
+
+.videosfenduan>div {
+    display: flex;
+}
+
+.two>div,
+.panthers>div,
+.synced>div,
+.police>div {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.two,
+.panthers,
+.synced {
+    border-bottom: 1px solid #111;
+    margin: 5px 0;
+}
+
+.tupian {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.xiangguanxinxi {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+}
+
+.xiangguanxinxi>div {
+    width: 25%;
+}
+
+.xiangguanxinxi>div:nth-child(1n+2) {
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
