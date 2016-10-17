@@ -115,3 +115,16 @@ a {
 a:hover {
     color: white;
 }
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li span {
+    margin-right: 10px;
+}
